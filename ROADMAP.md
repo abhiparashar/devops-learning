@@ -4,6 +4,7 @@ Simple rules for this journey:
 - One small lesson at a time.
 - You type all the code. I explain and review.
 - Tick a box `[x]` only when you can explain the lesson in your own words.
+- Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style, then committed and pushed.
 
 ## The big picture
 
@@ -558,5 +559,5 @@ Build one real pipeline, end to end:
 
 ## Where we are now
 
-- Concepts already discussed: Docker vs Jenkins, multi-stage builds, JDK vs JRE, the push → Jenkins → ECR → ECS flow, image tags, ECR lifecycle rules.
-- Next lesson: **0.1 Terminal and moving around**
+- Warm-up notes (Docker vs Jenkins, multi-stage, JDK vs JRE, push → Jenkins → ECR → ECS, tags, lifecycle rules): [lessons/00-warmup-docker-jenkins-aws.md](lessons/00-warmup-docker-jenkins-aws.md)
+- Current lesson: **0.1 Terminal and moving around**: [lessons/phase-0-foundations/0.1-terminal-and-moving-around.md](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
