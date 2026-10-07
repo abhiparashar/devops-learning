@@ -5,6 +5,7 @@ Simple rules for this journey:
 - You type all the code. I explain and review.
 - Tick a box `[x]` only when you can explain the lesson in your own words.
 - Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style, then committed and pushed.
+- Fast mode for topics you already know: a quick check (one trap question per lesson). Full lessons only for gaps.
 
 ## The big picture
 
@@ -41,7 +42,7 @@ Why: almost every server in the world runs Linux. Every DevOps tool assumes you 
 - **Words**: terminal, shell, Bash, path, absolute vs relative path, home folder `~`
 - **Do**: `pwd`, `ls`, `ls -la`, `cd`, `cd ..`, `cd ~`
 - **You can now**: find any file on a machine without a mouse
-- [ ] done
+- [x] done
 
 ### 0.2 Working with files
 - **Learn**: create, read, copy, move, delete files and folders
@@ -560,4 +561,5 @@ Build one real pipeline, end to end:
 ## Where we are now
 
 - Warm-up notes (Docker vs Jenkins, multi-stage, JDK vs JRE, push → Jenkins → ECR → ECS, tags, lifecycle rules): [lessons/00-warmup-docker-jenkins-aws.md](lessons/00-warmup-docker-jenkins-aws.md)
-- Current lesson: **0.1 Terminal and moving around**: [lessons/phase-0-foundations/0.1-terminal-and-moving-around.md](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
+- Done: **0.1 Terminal and moving around**: [lesson](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
+- Current: **0.2 to 0.6 quick check**: [lessons/phase-0-foundations/0.2-0.6-quick-check.md](lessons/phase-0-foundations/0.2-0.6-quick-check.md)

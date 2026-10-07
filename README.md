@@ -11,6 +11,7 @@ Learning DevOps from zero, one small lesson at a time, in plain words.
 |---|---|
 | 00 | [Warm-up: Docker, Jenkins, and the AWS flow](lessons/00-warmup-docker-jenkins-aws.md) |
 | 0.1 | [Terminal and moving around](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md) |
+| 0.2–0.6 | [Quick check: files, pipes, permissions, processes, environment](lessons/phase-0-foundations/0.2-0.6-quick-check.md) |
 
 ## Each lesson has
 
