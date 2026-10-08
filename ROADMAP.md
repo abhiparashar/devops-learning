@@ -157,7 +157,7 @@ Why: "it works on my machine" goes away. The same box runs on any computer.
 - **Words**: image, container, VM, Docker Engine, Docker Hub
 - **Do**: `docker run hello-world`, `docker ps`, `docker images`
 - **You can now**: run any app without installing it on your laptop
-- [ ] done
+- [x] done
 
 ### 2.2 Writing a Dockerfile
 - **Learn**: the recipe that builds an image, line by line
@@ -564,4 +564,5 @@ Build one real pipeline, end to end:
 - Warm-up notes (Docker vs Jenkins, multi-stage, JDK vs JRE, push → Jenkins → ECR → ECS, tags, lifecycle rules): [lessons/00-warmup-docker-jenkins-aws.md](lessons/00-warmup-docker-jenkins-aws.md)
 - Done: **0.1 Terminal and moving around**: [lesson](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
 - Paused: **0.2 to 0.6 quick check**: [lessons/phase-0-foundations/0.2-0.6-quick-check.md](lessons/phase-0-foundations/0.2-0.6-quick-check.md)
-- Current: **2.1 Image vs container**: [lessons/phase-2-docker/2.1-image-vs-container.md](lessons/phase-2-docker/2.1-image-vs-container.md)
+- Done: **2.1 Image vs container**: [lessons/phase-2-docker/2.1-image-vs-container.md](lessons/phase-2-docker/2.1-image-vs-container.md)
+- Next: **2.2 Writing a Dockerfile**
