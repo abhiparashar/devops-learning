@@ -6,6 +6,7 @@ Simple rules for this journey:
 - Tick a box `[x]` only when you can explain the lesson in your own words.
 - Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style, then committed and pushed.
 - Fast mode for topics you already know: a quick check (one trap question per lesson). Full lessons only for gaps.
+- Study order (your choice): **Docker → Kubernetes → the rest**. Phase 0 is paused at the quick check.
 
 ## The big picture
 
@@ -562,4 +563,5 @@ Build one real pipeline, end to end:
 
 - Warm-up notes (Docker vs Jenkins, multi-stage, JDK vs JRE, push → Jenkins → ECR → ECS, tags, lifecycle rules): [lessons/00-warmup-docker-jenkins-aws.md](lessons/00-warmup-docker-jenkins-aws.md)
 - Done: **0.1 Terminal and moving around**: [lesson](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
-- Current: **0.2 to 0.6 quick check**: [lessons/phase-0-foundations/0.2-0.6-quick-check.md](lessons/phase-0-foundations/0.2-0.6-quick-check.md)
+- Paused: **0.2 to 0.6 quick check**: [lessons/phase-0-foundations/0.2-0.6-quick-check.md](lessons/phase-0-foundations/0.2-0.6-quick-check.md)
+- Current: **2.1 Image vs container**: [lessons/phase-2-docker/2.1-image-vs-container.md](lessons/phase-2-docker/2.1-image-vs-container.md)
