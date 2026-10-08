@@ -13,6 +13,8 @@ Learning DevOps from zero, one small lesson at a time, in plain words.
 | 0.1 | [Terminal and moving around](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md) |
 | 0.2–0.6 | [Quick check: files, pipes, permissions, processes, environment](lessons/phase-0-foundations/0.2-0.6-quick-check.md) |
 | 2.1 | [Image vs container](lessons/phase-2-docker/2.1-image-vs-container.md) |
+| 2.2 | [Writing a Dockerfile](lessons/phase-2-docker/2.2-writing-a-dockerfile.md) |
+| 2.3 | [Layers and caching](lessons/phase-2-docker/2.3-layers-and-caching.md) |
 
 ## Each lesson has
 

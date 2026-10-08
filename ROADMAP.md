@@ -4,7 +4,7 @@ Simple rules for this journey:
 - One small lesson at a time.
 - You type all the code. I explain and review.
 - Tick a box `[x]` only when you can explain the lesson in your own words.
-- Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style, then committed and pushed.
+- Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style. Commit and push once per phase (when the whole phase is done).
 - Fast mode for topics you already know: a quick check (one trap question per lesson). Full lessons only for gaps.
 - Study order (your choice): **Docker → Kubernetes → the rest**. Phase 0 is paused at the quick check.
 
@@ -57,7 +57,7 @@ Why: almost every server in the world runs Linux. Every DevOps tool assumes you 
 - **Words**: pipe `|`, redirect `>` and `>>`, stdout, stderr
 - **Do**: `grep`, `find`, `wc -l`, `sort`, `head`, `tail -f`
 - **You can now**: search a huge log file for errors in seconds
-- [ ] done
+- [x] done (quick check passed: `>` replaces the file, `>>` adds to the end)
 
 ### 0.4 Users and permissions
 - **Learn**: who owns a file, who can read, write, or run it
@@ -164,7 +164,7 @@ Why: "it works on my machine" goes away. The same box runs on any computer.
 - **Words**: `FROM`, `WORKDIR`, `COPY`, `RUN`, `CMD`, `EXPOSE`, build context
 - **Do**: Dockerfile for a small app, `docker build -t myapp:v1 .`
 - **You can now**: package your own app
-- [ ] done
+- [x] done
 
 ### 2.3 Layers and caching
 - **Learn**: why line order makes builds fast or slow
@@ -565,4 +565,5 @@ Build one real pipeline, end to end:
 - Done: **0.1 Terminal and moving around**: [lesson](lessons/phase-0-foundations/0.1-terminal-and-moving-around.md)
 - Paused: **0.2 to 0.6 quick check**: [lessons/phase-0-foundations/0.2-0.6-quick-check.md](lessons/phase-0-foundations/0.2-0.6-quick-check.md)
 - Done: **2.1 Image vs container**: [lessons/phase-2-docker/2.1-image-vs-container.md](lessons/phase-2-docker/2.1-image-vs-container.md)
-- Next: **2.2 Writing a Dockerfile**
+- Done: **2.2 Writing a Dockerfile**: [lessons/phase-2-docker/2.2-writing-a-dockerfile.md](lessons/phase-2-docker/2.2-writing-a-dockerfile.md) (also passed 0.3 quick check)
+- Current: **2.3 Layers and caching**: [lessons/phase-2-docker/2.3-layers-and-caching.md](lessons/phase-2-docker/2.3-layers-and-caching.md)
