@@ -3,6 +3,7 @@
 Learning DevOps from zero, one small lesson at a time, in plain words.
 
 - **Roadmap:** [ROADMAP.md](ROADMAP.md): every phase and lesson, with checkboxes
+- **Advanced roadmap:** [ADVANCED-ROADMAP.md](ADVANCED-ROADMAP.md): after the first roadmap, go deep on every topic for the top 1%
 - **Lessons:** [lessons/](lessons/): one file per lesson, saved as we go
 
 ## Lessons so far

@@ -7,6 +7,7 @@ Simple rules for this journey:
 - Every lesson taught in chat is saved in [`lessons/`](lessons/) in the same simple style. Commit and push once per phase (when the whole phase is done).
 - Fast mode for topics you already know: a quick check (one trap question per lesson). Full lessons only for gaps.
 - Study order (your choice): **Docker → Kubernetes → the rest**. Phase 0 is paused at the quick check.
+- After this roadmap: [ADVANCED-ROADMAP.md](ADVANCED-ROADMAP.md) goes deep on every topic, aiming for the top 1%.
 
 ## The big picture
 
